@@ -13,8 +13,6 @@ dotenv.config(); // Load variables from .env
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-console.log("✅ Allowed CORS Origin:", process.env.CORS_ORIGIN);
-
 // Middleware
 // app.use(cors());
 const corsOptions = {
