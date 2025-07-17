@@ -50,7 +50,7 @@ This project is built with a modern MERN stack and other leading technologies.
 -   **Backend:** Node.js, Express.js
 -   **Database:** MongoDB with Mongoose
 -   **Authentication:** JSON Web Tokens (JWT), bcrypt.js
--   **AI Integration:** OpenAI API
+-   **AI Integration:** OpenRouter API
 
 ---
 
