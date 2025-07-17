@@ -8,13 +8,11 @@ import Resume from "../models/resumeModel.js";
  */
 export const getUserProfile = async (req, res) => {
   try {
-    // req.user is attached to the request by our 'protect' middleware
-    // We use .select('-password') to exclude the hashed password from the response
+
     const user = await User.findById(req.user._id).select('-password');
 
     if (user) {
-      // Once we have the user, find all documents in the 'resumes' collection
-      // that are linked to this user's ID. Sort by newest first.
+
       const resumeHistory = await Resume.find({ user: user._id }).sort({ createdAt: -1 });
 
       // Return all the data the frontend needs for the profile page

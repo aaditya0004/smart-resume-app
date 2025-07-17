@@ -67,8 +67,6 @@ ${resumeText}
     });
     await newResumeEntry.save();
 
-    console.log(`✅ Successfully saved CUSTOMIZED resume for user: ${req.user.email}`);
-
     // Delete the uploaded file after use
     fs.unlinkSync(resumeFile.path);
 

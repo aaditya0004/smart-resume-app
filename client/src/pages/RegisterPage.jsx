@@ -22,9 +22,8 @@ const RegisterPage = () => {
   };
 
   return (
-    // Use the theme's main background color
     <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
-      {/* Styled registration card */}
+      {/* Registration card */}
       <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-md">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold tracking-tight text-slate-800">Create an Account</h2>

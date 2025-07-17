@@ -1,4 +1,3 @@
-// In models/resumeModel.js
 import mongoose from "mongoose";
 
 const resumeSchema = new mongoose.Schema({
@@ -12,13 +11,13 @@ const resumeSchema = new mongoose.Schema({
     required: true,
   },
   originalText: {
-    type: String, // To store the text from an analyzed resume
+    type: String, 
   },
   customizedText: {
-    type: String, // To store the text from a customized resume
+    type: String, 
   },
   aiFeedback: {
-    type: mongoose.Schema.Types.Mixed, // To store the JSON feedback from analysis
+    type: mongoose.Schema.Types.Mixed,
   },
 }, {
   timestamps: true,

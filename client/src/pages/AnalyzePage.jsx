@@ -2,12 +2,7 @@ import React from "react";
 import SmartAnalyzeForm from "../components/SmartAnalyzeForm";
 
 const AnalyzePage = () => {
-  // Applying the "Professional & Trustworthy" theme
-  // Background: #F8F9FA (slate-50)
-  // Text: #1F2937 (slate-800)
-
   return (
-    // Use the theme's main background color
     <div className="bg-slate-50 min-h-screen">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         
@@ -20,9 +15,7 @@ const AnalyzePage = () => {
             Get instant, data-driven feedback on your resume's strengths and weaknesses.
           </p>
         </div>
-        
-        {/* The SmartAnalyzeForm component is placed here */}
-        {/* It will now sit inside our themed page layout */}
+
         <div className="max-w-4xl mx-auto">
            <SmartAnalyzeForm />
         </div>

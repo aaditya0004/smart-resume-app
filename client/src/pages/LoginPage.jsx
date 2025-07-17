@@ -24,7 +24,6 @@ const LoginPage = () => {
   };
 
   return (
-    // Use the theme's main background color
     <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
       {/* Styled login card */}
       <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-md">
@@ -37,7 +36,7 @@ const LoginPage = () => {
           </p>
         </div>
 
-        {/* Display error message in a more prominent box */}
+        {/* Display error message */}
         {error && (
           <div
             className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg relative mb-4"

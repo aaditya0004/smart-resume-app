@@ -9,6 +9,6 @@ export const generatePDFBuffer = async (textContent) => {
   doc.text(textContent);
   doc.end();
 
-  const buffer = await getStream(stream); // ✅ Correct usage in ESM
+  const buffer = await getStream(stream); // Correct usage in ESM
   return buffer;
 };

@@ -1,4 +1,3 @@
-// routes/customizeRoutes.js
 import express from "express";
 import multer from "multer";
 import { customizeResume } from "../controllers/customizeResumeController.js";

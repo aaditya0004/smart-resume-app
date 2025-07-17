@@ -17,9 +17,9 @@ export const analyzeResume = async (req, res) => {
 
     const newResumeEntry = new Resume({
       originalText: resumeText,
-      aiFeedback: aiFeedback, // Assuming your model can store a JSON object
+      aiFeedback: aiFeedback, 
       originalFileName: req.file.originalname,
-      user: req.user._id, // Link to the logged-in user
+      user: req.user._id, 
     });
     await newResumeEntry.save();
 

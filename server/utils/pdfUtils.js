@@ -1,4 +1,3 @@
-// utils/pdfUtils.js
 import fs from "fs";
 import pdfjsLib from "pdfjs-dist/legacy/build/pdf.js"; 
 // import * as pdfjsLib from "pdfjs-dist/build/pdf.node.js";

@@ -3,15 +3,14 @@ import Layout from "./Layout";
 import CustomizePage from "./pages/CustomizePage";
 import AnalyzePage from "./pages/AnalyzePage";
 import Home from "./pages/Home";
-import LoginPage from "./pages/LoginPage"; // 👈 Import
-import RegisterPage from "./pages/RegisterPage"; // 👈 Import
-import ProfilePage from "./pages/ProfilePage"; // 👈 Import (we will create this next)
-import ProtectedRoute from "./components/ProtectedRoute"; // 👈 Import
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
+import ProfilePage from "./pages/ProfilePage";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
     <Router>
-      {/* You can add a <Header /> component here later */}
       <Routes>
         <Route path="/" element={<Layout />}>
           {/* Public Routes */}

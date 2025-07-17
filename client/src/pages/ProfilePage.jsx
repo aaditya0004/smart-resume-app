@@ -3,7 +3,6 @@ import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 import { renderResumeText } from "../utils/renderResume.jsx"; // 👈 Import our shared function
 
-// --- Reusable Modal Component ---
 const ResultModal = ({ isOpen, onClose, item }) => {
   if (!isOpen || !item) return null;
 
@@ -42,9 +41,7 @@ const ResultModal = ({ isOpen, onClose, item }) => {
   );
 };
 
-// --- Reusable Feedback Display Component ---
 const FeedbackDisplay = ({ feedback }) => (
-  // This is a simplified version of your analysis display logic
   <div className="space-y-4">
     {feedback.summary && (
       <div>
@@ -91,7 +88,6 @@ const ProfilePage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // ... your existing useEffect logic ...
     const fetchProfile = async () => {
       const userInfo = JSON.parse(localStorage.getItem("userInfo"));
       if (!userInfo || !userInfo.token) {

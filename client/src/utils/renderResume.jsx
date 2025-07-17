@@ -1,7 +1,3 @@
-// In src/utils/renderResume.js
-
-// This is the same renderResumeText function you already have.
-// We are just moving it to a central location.
 export const renderResumeText = (text, jobDescription = "") => {
   const allLines = text
     .split("\n")
