@@ -1,0 +1,4 @@
+/* These three directives load Tailwind's prebuilt styles: */
+@tailwind base;  /* CSS reset */
+@tailwind components;  /* reusable components (like buttons) */
+@tailwind utilities;   /* Tailwind utility classes (like bg-blue-500, text-center, etc.) */
