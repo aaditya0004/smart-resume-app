@@ -18,7 +18,7 @@
 
 ### 🌐 Live Demo
 
-**[your-live-demo-link.com](https://smartresume-app.netlify.app/)**
+**[SmartResume](https://smartresume-app.netlify.app/)**
 
 ---
 
